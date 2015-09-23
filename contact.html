@@ -8,8 +8,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
+<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 
-    <title>Sticky Footer Navbar Template for Bootstrap</title>
+    <title>Contact the Developers</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,8 +36,10 @@
       <div class="page-header">
         <h1>Contact the Developers</h1>
       </div>
-      <p class="lead">Hello</p>
-      <p>Back to <a href="index.html">the homepage</a></p>
+      <p id="travis" class="lead" onmouseover="travisMouseOver()" onmouseout="travisMouseOut()">Travis Churchill</p>
+      <p id="robbie" class="lead" onmouseover="robbieMouseOver()" onmouseout="robbieMouseOut()">Robbie McCracken</p>
+	  <p id="bhargav" class="lead" onmouseover="bhargavMouseOver()" onmouseout="bhargavMouseOut()">Bhargav Yadavalli</p>
+	  <p>Back to <a href="index.html">the homepage</a></p>
     </div>
 
     <footer class="footer">
@@ -53,5 +56,31 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	<script>
+	function travisMouseOver() {
+	document.getElementById("travis").innerHTML ="Travis completed all of the in house art and was involved in the design process. Contact Travis at churchill4501@students.d211.org";
+	document.getElementById("travis").style.color = '#ffffff';
+	}
+	function travisMouseOut() {
+	document.getElementById("travis").innerHTML = "Travis Churchill"
+	document.getElementById("travis").style.color = '#f34532';
+	}
+	function robbieMouseOver() {
+	document.getElementById("robbie").innerHTML ="Robbie wrote all of the background and was in charge of design. Contact Robbie at mccracken@students.d211.org";
+	document.getElementById("robbie").style.color = '#ffffff';
+	}
+	function robbieMouseOut() {
+	document.getElementById("robbie").innerHTML = "Robbie McCracken"
+	document.getElementById("robbie").style.color = '#0066FF';
+	}
+	function bhargavMouseOver() {
+	document.getElementById("bhargav").innerHTML ="Bhargav developed the entire website and executed on the design. Contact Bhargav at yadavalli3696@students.d211.org";
+	document.getElementById("bhargav").style.color = '#ffffff';
+	}
+	function bhargavMouseOut() {
+	document.getElementById("bhargav").innerHTML = "Bhargav Yadavalli"
+	document.getElementById("bhargav").style.color = '#009933';
+	}
+	</script>
   </body>
 </html>

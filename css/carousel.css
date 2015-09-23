@@ -8,7 +8,6 @@ body {
   background-color: #000000;
 }
 
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -127,6 +126,7 @@ body {
 
   .featurette-heading {
     font-size: 50px;
+	color: #ffffff;
   }
 }
 
